@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: Seo Contact Us Button
+ * Plugin Name: Contact Us Button
  * Description: Добавляет на сайт кнопку "Все в одном", при клике на который выводятся кнопки мессенджеров и социальных сетей
  * Version:     1.0.0
  * Author:      Edgar Podosyan
  * Author URI:  https://github.com/edgar010797
- * Text Domain: seo-contact-us
+ * Text Domain: contact-us-button
  */
 
 

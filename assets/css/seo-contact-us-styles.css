@@ -1,4 +1,4 @@
-html{
+html {
     font-size: 16px !important;
 }
 
@@ -49,6 +49,7 @@ html{
     -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
     transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
+
 .seo-social-button:before {
     content: '';
     background-color: #000;
@@ -62,7 +63,9 @@ html{
     -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
     transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
-.seo-social-button .fa {
+
+.seo-social-button .fa,
+.seo-social-button .fab {
     font-size: 28px;
     vertical-align: middle;
     -webkit-transform: scale(0.8);
@@ -71,24 +74,26 @@ html{
     transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
 
-
-
 .seo-social-button:focus:before, .seo-social-button:hover:before {
     top: -10%;
     left: -10%;
 }
-.seo-social-button:focus .fa, .seo-social-button:hover .fa {
+
+.seo-social-button:focus .fa,
+.seo-social-button:hover .fa,
+.seo-social-button:focus .fab,
+.seo-social-button:hover .fab {
     color: #fff !important;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
 
 .seo-all-in-one-but {
-    -webkit-animation:seohoverWave linear 1s infinite;
-    animation:seohoverWave linear 1s infinite;
+    -webkit-animation: seohoverWave linear 1s infinite;
+    animation: seohoverWave linear 1s infinite;
 }
 
-.seo-all-in-one-but i  {
+.seo-all-in-one-but i {
     animation: 5000ms ease 0s normal none 1 running seoshake;
     animation-iteration-count: infinite;
     -webkit-animation: 5000ms ease 0s normal none 1 running seoshake;
@@ -97,31 +102,31 @@ html{
 
 @-webkit-keyframes seohoverWave {
     0% {
-        box-shadow:0 8px 10px rgba(77,193,71,0.3),0 0 0 0 rgba(77,193,71,0.2),0 0 0 0 rgba(77,193,71,0.2)
+        box-shadow: 0 8px 10px rgba(77, 193, 71, 0.3), 0 0 0 0 rgba(77, 193, 71, 0.2), 0 0 0 0 rgba(77, 193, 71, 0.2)
     }
     40% {
-        box-shadow:0 8px 10px rgba(77,193,71,0.3),0 0 0 15px rgba(77,193,71,0.2),0 0 0 0 rgba(77,193,71,0.2)
+        box-shadow: 0 8px 10px rgba(77, 193, 71, 0.3), 0 0 0 15px rgba(77, 193, 71, 0.2), 0 0 0 0 rgba(77, 193, 71, 0.2)
     }
     80% {
-        box-shadow:0 8px 10px rgba(77,193,71,0.3),0 0 0 30px rgba(77,193,71,0),0 0 0 26.7px rgba(77,193,71,0.067)
+        box-shadow: 0 8px 10px rgba(77, 193, 71, 0.3), 0 0 0 30px rgba(77, 193, 71, 0), 0 0 0 26.7px rgba(77, 193, 71, 0.067)
     }
     100% {
-        box-shadow:0 8px 10px rgba(77,193,71,0.3),0 0 0 30px rgba(77,193,71,0),0 0 0 40px rgba(77,193,71,0.0)
+        box-shadow: 0 8px 10px rgba(77, 193, 71, 0.3), 0 0 0 30px rgba(77, 193, 71, 0), 0 0 0 40px rgba(77, 193, 71, 0.0)
     }
 }
 
 @keyframes seohoverWave {
     0% {
-        box-shadow:0 8px 10px rgba(77,193,71,0.3),0 0 0 0 rgba(77,193,71,0.2),0 0 0 0 rgba(77,193,71,0.2)
+        box-shadow: 0 8px 10px rgba(77, 193, 71, 0.3), 0 0 0 0 rgba(77, 193, 71, 0.2), 0 0 0 0 rgba(77, 193, 71, 0.2)
     }
     40% {
-        box-shadow:0 8px 10px rgba(77,193,71,0.3),0 0 0 15px rgba(77,193,71,0.2),0 0 0 0 rgba(77,193,71,0.2)
+        box-shadow: 0 8px 10px rgba(77, 193, 71, 0.3), 0 0 0 15px rgba(77, 193, 71, 0.2), 0 0 0 0 rgba(77, 193, 71, 0.2)
     }
     80% {
-        box-shadow:0 8px 10px rgba(77,193,71,0.3),0 0 0 30px rgba(77,193,71,0),0 0 0 26.7px rgba(77,193,71,0.067)
+        box-shadow: 0 8px 10px rgba(77, 193, 71, 0.3), 0 0 0 30px rgba(77, 193, 71, 0), 0 0 0 26.7px rgba(77, 193, 71, 0.067)
     }
     100% {
-        box-shadow:0 8px 10px rgba(77,193,71,0.3),0 0 0 30px rgba(77,193,71,0),0 0 0 40px rgba(77,193,71,0.0)
+        box-shadow: 0 8px 10px rgba(77, 193, 71, 0.3), 0 0 0 30px rgba(77, 193, 71, 0), 0 0 0 40px rgba(77, 193, 71, 0.0)
     }
 }
 
@@ -244,10 +249,11 @@ html{
 }
 
 @media (min-width: 421px) and (max-width: 767px) {
-  .seo-social-buttons {
+    .seo-social-buttons {
         right: 3rem;
         bottom: 10rem;
     }
+
     .seo-first-social-button {
         right: 3rem;
         bottom: 5rem;
@@ -259,10 +265,9 @@ html{
         right: 3rem;
         bottom: 10rem;
     }
+
     .seo-first-social-button {
         right: 3rem;
         bottom: 5rem;
     }
 }
-
-
